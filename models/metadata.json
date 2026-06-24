@@ -1,0 +1,86 @@
+{
+  "eda_stats": {
+    "transactions": 18532,
+    "customers": 4338,
+    "products": 3665,
+    "countries": 37,
+    "total_revenue": 8887208.894000001,
+    "date_min": "2022-12-01",
+    "date_max": "2023-12-09"
+  },
+  "cluster_diagnostics": {
+    "k_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "inertias": [
+      6874.932050507054,
+      4299.066899035617,
+      3243.032791551838,
+      2760.7943559689525,
+      2396.85490572643,
+      2166.95860843715,
+      1961.088789083025,
+      1819.1581945880419,
+      1687.7785432038195
+    ],
+    "silhouettes": [
+      0.40623670798647815,
+      0.4156966372887722,
+      0.37954225959217314,
+      0.34348126666614054,
+      0.3299225461209733,
+      0.3007661947194926,
+      0.29986958218901294,
+      0.28281648444128754,
+      0.2818655621425602
+    ],
+    "chosen_k": 4,
+    "silhouette_best_k": 3
+  },
+  "segment_summary": [
+    {
+      "Segment": "At-Risk",
+      "Customers": 938,
+      "Avg_Recency": 259.4,
+      "Avg_Frequency": 1.4,
+      "Avg_Monetary": 385.4
+    },
+    {
+      "Segment": "High-Value",
+      "Customers": 571,
+      "Avg_Recency": 19.8,
+      "Avg_Frequency": 15.8,
+      "Avg_Monetary": 9823.4
+    },
+    {
+      "Segment": "Occasional",
+      "Customers": 1377,
+      "Avg_Recency": 58.0,
+      "Avg_Frequency": 1.5,
+      "Avg_Monetary": 384.2
+    },
+    {
+      "Segment": "Regular",
+      "Customers": 1452,
+      "Avg_Recency": 46.1,
+      "Avg_Frequency": 4.2,
+      "Avg_Monetary": 1644.3
+    }
+  ],
+  "segment_order": [
+    "High-Value",
+    "Regular",
+    "Occasional",
+    "At-Risk"
+  ],
+  "n_products_in_recommender": 800,
+  "feature_transform": "log1p on Frequency & Monetary, then StandardScaler"
+}

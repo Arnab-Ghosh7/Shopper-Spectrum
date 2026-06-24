@@ -1,0 +1,1 @@
+"""Shopper Spectrum - source package."""
