@@ -1,11 +1,4 @@
 # 🛒 Shopper Spectrum
-### Customer Segmentation and Product Recommendations in E-Commerce
-
-An end-to-end data-science project that analyses online-retail transaction data to:
-
-1. **Segment customers** using **RFM analysis** (Recency, Frequency, Monetary) + **KMeans clustering** into four actionable groups — *High-Value, Regular, Occasional, At-Risk*.
-2. **Recommend products** using **item-based collaborative filtering** (cosine similarity on a customer × product matrix).
-3. Serve both capabilities through a polished **Streamlit web app** with real-time predictions.
 
 ---
 
